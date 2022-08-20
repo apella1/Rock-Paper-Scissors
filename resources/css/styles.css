@@ -1,0 +1,16 @@
+body {
+    background: rgb(104, 104, 168);
+    margin: 2em;
+    padding: 30px;
+}
+
+.game-area { 
+    background: blue;
+    margin: 30px;
+    padding: 30px;
+}
+
+.selection-button { 
+    cursor: pointer;
+    border-radius: 5px;
+}
