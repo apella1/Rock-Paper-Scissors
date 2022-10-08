@@ -2,9 +2,11 @@ const computerChoiceDisplay = document.getElementById('computer-choice');
 const userChoiceDisplay = document.getElementById('your-choice');
 const resultDisplay = document.getElementById('results');
 const possibleChoices = document.querySelectorAll('button');
+
+// initializing 
 let userChoice
 let computerChoice
-let result 
+let result  
 
 possibleChoices.forEach( (possibleChoice) => {
     possibleChoice.addEventListener('click', (e) => {
@@ -67,4 +69,3 @@ function getResult () {
 
     resultDisplay.innerHTML = result;
 }
-
